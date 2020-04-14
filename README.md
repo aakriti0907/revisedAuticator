@@ -1,5 +1,6 @@
-# React Color Memory Game
+# React Auticator
 
-A memory game built with React using SASS, it can be played at https://kurtpetrek.github.io/react-memory-game/
+A platform for autistic kids. 
+One can play games, watch cartoons, or get their questions answered. All of these are focused to increase attention span and help in learning.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
