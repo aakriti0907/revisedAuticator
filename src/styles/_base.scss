@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Righteous');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to top, rgba(#fceabb, .2), rgba(#f8b500, .1));
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-size: 5rem;
+  padding: .3rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@supports (-webkit-text-stroke: 1px white) {
+  h1 {
+    -webkit-text-stroke: 1px white;
+    text-shadow: 1px 1px 0px,
+                  2px 2px 0px,
+                  3px 3px 0px,
+                  4px 4px 0px,
+                  5px 5px 0px;
+  }
+}
